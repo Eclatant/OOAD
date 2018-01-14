@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es2015",
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "**/__mocks__/*",
+    "__tests__/*"
+  ]
+}
